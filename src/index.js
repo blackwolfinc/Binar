@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { About } from './Views/About/About';
 
 ReactDOM.render(
   <React.StrictMode>
-     <h1>wweww</h1>
+    <About/>
   </React.StrictMode>,
   document.getElementById('root')
 );
