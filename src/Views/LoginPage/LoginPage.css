@@ -1,0 +1,28 @@
+.bapak{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+.bagianKiri{
+    /* background-color: blue; */
+    height: 100vh;
+    width: 80%;
+    background: url(https://images.unsplash.com/photo-1645363710675-c72dae0ea38c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1154&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bagianKanan{
+    background-color: rgb(158, 17, 71);
+    height: 100%;
+    width: 30%;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
