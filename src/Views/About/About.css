@@ -1,0 +1,4 @@
+.CardDetail {
+    display: flex;
+    flex-wrap: wrap;
+}
