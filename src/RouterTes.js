@@ -11,6 +11,9 @@ import { ContohUse } from './Views/contoh/ContohUse';
 import { Hompage } from './Views/Homepage/Hompage';
 import { LocalStorage } from './Views/LocalStorage/LocalStorage';
 import { LoginPage } from './Views/LoginPage/LoginPage';
+import Page1 from './Views/PageBelajar/Page1';
+import Page2 from './Views/PageBelajar/Page2';
+import PageReduxDefaut from './Views/pageRedux/PageReduxDefaut';
 import { UseTest } from './Views/UseEfectTes/UseTest';
 
 
@@ -20,12 +23,7 @@ export const RouterTes = () => {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<LoginPage/>}/>
-          <Route path="hompage" element={<Hompage/>}/>
-          <Route path="Belajar" element={<ReactHook/>}/>
-          <Route path="use" element={<About/>}/>
-          <Route path="contoh" element={<ContohUse/>}/>
-          <Route path="LocalStorage" element={<LocalStorage/>}/>
-          <Route path="axios" element={<AxiosHome/>}/>
+          <Route path="/redux" element={<PageReduxDefaut/>}/>
         </Routes>
   </BrowserRouter>
   )
